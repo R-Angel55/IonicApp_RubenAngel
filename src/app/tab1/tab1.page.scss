@@ -1,0 +1,22 @@
+.perfil-card{
+  text-align: center;
+}
+
+.avatar-perfil{
+  margin: auto;
+  margin-top: 20px;
+  width: 120px;
+  height: 120px;
+}
+
+.avatar-perfil img{
+  object-fit: cover;
+}
+
+ion-chip{
+  margin: 5px;
+}
+
+ion-card-title{
+  font-weight: bold;
+}

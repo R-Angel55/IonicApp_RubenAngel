@@ -1,0 +1,50 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Mis Proyectos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-accordion-group>
+    <ion-accordion value="My Develop Projects">
+      <ion-item slot="header" color="light">
+        <ion-label>
+         CRUD EN PHP 
+        </ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content"> Desarrollamos un CRUD (Create, Read, Update, Delete) 
+          en PHP con base de datos MySql/MariaDB para un sistema en internet
+          <img alt="CRUD" src="assets/images/crud-application-php-pdo-mysql.png" />
+        </div>
+    </ion-accordion>
+    
+    <ion-accordion value="My Mobile Projects">
+      <ion-item slot="header" color="light">
+        <ion-label>
+         My Mobile Projects 
+        </ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content"> 
+        Desarrollamos proyectos con sensores, text to speach, así como juegos para Plataformas 
+        Ios y android
+        <img alt="CRUD" src="assets/images/ai2_03.png" />
+      </div>
+    </ion-accordion>
+
+     <ion-accordion value="Ecko Tracer">
+      <ion-item slot="header" color="light">
+        <ion-label>
+         Ekco Tracer 
+        </ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content"> 
+        Desarrolé una aplicación para monitoreo de ruido ambiental, que utiliza geolocalización 
+        y el mricrófono del dispositivo, categorizando según la lectura en zonas, silenciosa, moderada o ruidosa
+        <img alt="MI APP" src="assets/images/MiApp.jpeg" />
+      </div>
+    </ion-accordion>
+
+  </ion-accordion-group>
+</ion-content>
